@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite" parallel="methods" thread-count="5">
+    <listeners class-name=""></listeners>
+  <test verbose="2" name="Default test">
+      
+      <groups>
+          <run>
+              <include name="Regression" />
+          </run>
+      </groups>
+    <classes>
+      <class name="TestNgPractice.TestNgClass">
+          <methods>
+              <exclude name="method4" />
+          </methods>
+       </class>
+      <class name="TestNgPractice.TestNgClass2"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
