@@ -43,6 +43,7 @@ public class LoginTestCase extends TestBase{
 	public void CloseMethod() throws IOException
 	{
 		driver.close();
+		System.out.println("Closed");
 	}
 	
 }
