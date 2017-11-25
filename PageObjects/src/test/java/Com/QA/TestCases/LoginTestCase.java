@@ -44,6 +44,7 @@ public class LoginTestCase extends TestBase{
 	{
 		driver.close();
 		System.out.println("Closed");
+		System.out.println("Karimulla");
 	}
 	
 }
